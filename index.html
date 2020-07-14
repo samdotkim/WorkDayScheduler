@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>sam.kim Work Day Scheduler</title>
+  </head>
+<body>
+ 
+<!-- sam.kim Navigation bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <img src="img/logo.png" id=logo width=40px>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Project <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">GitHub</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://sam.kim">Portfolio</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      <img src="img/logo-NW.jpg" height=40px>
+    </span>
+  </div>
+</nav>
+
+<!-- Project Header JumboTron -->
+  <header class="jumbotron animate__animated animate__slideInDown">
+    <h1 class="display-3 animate__animated animate__bounce animate__delay-1s">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <h2 id="currentDate"></h2>
+  </header>
+
+<!-- Work Day Scheduler -->
+  <form id='WorkDayScheduler' class="animate__animated animate__bounceInUp">
+    <div class="container" id="scheduler"></div>    
+  </form>
+
+<!-- JAVASCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src='./script.js'></script>
+
+</body>
+</html>
