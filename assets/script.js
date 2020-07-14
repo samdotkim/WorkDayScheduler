@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  // clock
+  // set clock test variable
   const clock = false;
 
   // get current time from moment API
