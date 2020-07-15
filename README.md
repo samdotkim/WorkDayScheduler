@@ -18,6 +18,16 @@ Animate.css is used to animate elements on the page.
 
 Task rows are given a timeClass which indicates if that task row is in the past, present or future.
 
+## URL
+
+https://samdotkim.github.io/WorkDayScheduler/
+
+## Credits
+
+1. jQuery
+2. Moment.js
+3. Bootstrap CSS
+4. Animate.css
 
 ## Support
 
